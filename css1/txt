@@ -1,0 +1,40 @@
+                <!-- <div id="overViewPosition" class="container"> -->
+                    <!-- <table class="table">
+                        <thead>
+                          <tr>
+                             <th scope="col"></th>
+                            <th scope="col"></th> 
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr data-aos="fade-right" data-aos-duration="1000">
+                            <th scope="row">ALTURA</th>
+                            <td class="text-end">70 m/ 229.6 f</td>
+                          </tr>
+                          <tr data-aos="fade-right" data-aos-duration="1250">
+                            <td scope="row">DIÂMENTRO</td>
+                            <td class="text-end">3.7 m / 12 ft</td>
+                          </tr>
+                          <tr data-aos="fade-right" data-aos-duration="1550">
+                            <td scope="row">MASSA</td>
+                            <td class="text-end">549,054 kg / 1,207,920 lb</td>
+                          </tr>
+                          <tr data-aos="fade-right" data-aos-duration="1650">
+                            <th scope="row">CARGA MÁXIMA PARA LEO</th>
+                            <td class="text-end">22,800 kg / 50,265 lb</td>
+                          </tr>
+                          <tr data-aos="fade-right" data-aos-duration="1800">
+                            <td scope="row">CARGA MÁXIMA PARA O GTO</td>
+                            <td class="text-end">8,300 kg / 18,300 lb</td>
+                          </tr>
+                          <tr data-aos="fade-right" data-aos-duration="1850">
+                            <td scope="row">CARGA MÁXIMA PARA MARTE</td>
+                            <td class="text-end">4,020 kg / 8,860 lb</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div> -->
+                  
+                  <p data-aos="flip-right" data-aos-duration="1300" class="aos-init aos-animate">SpaceX também oferece voos cormeciais para orbita terrestre e
+            lunar. Para começar a planejar a sua jornada,
+            por favor contate-nos por <a href="#">onebitcode@gmail.com</a></p>

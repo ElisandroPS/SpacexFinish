@@ -1,0 +1,830 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ​Link para download dos arquivos visuais: https://drive.google.com/drive/folders/1hvRsR5VANEGh-P3pfN4Mu8Wsj8ukzRTK?usp=sharing
+
+Link da LP para você de inspirar: https://onebitx.netlify.app
+
+Cor de hover de links: #b9b9b9
+
+Cor de copyright da obc no footer: #555252
+
+Cor do item da tabela: #d8d8d8
+
+Uma dica, nós utilizamos tabelas dentro de carrossel na parte da falcon9, carrossel você já viu mas tabela não, então está aqui a parte de table do bootstrap para facilitar um pouco sua vida 😀 https://getbootstrap.com/docs/5.1/content/tables/ */
+
+
+/* Início da edição da página home */
+
+.header-home{
+    min-height: 100vh;
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-arrowDown{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+}
+
+
+
+body h1, p{
+    color:white;
+}
+
+body .btn-home{
+    border-radius: 4px;
+    width: 160px;
+    margin-top: 4%;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+}
+
+body .btn-home:hover{
+    background-color: #b9b9b9;
+}
+
+
+.text-center1{
+    margin-left: 40.5%;
+    padding-bottom: 15%;
+    width: 100px;
+    height: auto;
+    /* border: 1px solid yellow; */
+
+}
+
+
+.img-arrowDown{
+    /* border: 1px solid red; */
+    margin-bottom: 2%;
+}
+
+/* Início da div segunda imagem da página home */
+
+.imgbacground{
+    min-height: 100vh;
+    background-image: url(../img/03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.img-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+
+
+
+/* Início da div2 terceira imagem da página home */
+
+.imgbackground2{
+    min-height: 100vh;
+    background-image: url(../img/02.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img1-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    min-width: 240px;
+    height:auto;
+}
+
+
+/* Início da div3 quarta imagem da página home */
+
+.background3{
+    min-height: 100vh;
+    background-image: url(../img/04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+
+/* Coloquei esse mediaquery para ajudar na responsividade da página home, devido ao bloco da classe img-home ter ficado a largura de 600px */
+@media(max-width:672px){
+    .img-home,.img1-home, .img2-home{
+        width: 250px;
+    }
+    
+    .img1-home > h1, .img1-home > p{
+        color: red;
+    }
+
+}
+
+
+/* Footer da home */
+.footer-home{
+    font-size: 0.75em;
+    padding: 3%;
+    background-color: black;
+    
+    
+}
+
+.copyOBC{
+    color: #b9b9b9;
+}
+
+.footer-home >a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.carousel-control-prev{
+    height: auto;
+}
+
+/* START */
+/* FALCON PAGE */
+
+/* Início das edições da página falcon */
+
+.header-falcon{
+    min-height: 100vh;
+    background-image: url(../img/111.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-falcon{
+    background-color: black;
+}
+
+
+.text-falcon{
+    padding-top: 6%;
+}
+
+.h1-falcon{
+    color: white;
+    font-size: 6em;
+}
+
+.p-falcon{
+    color: white;
+    font-weight:600;
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+/* edição da primeira div, números */
+
+.dark{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5%  0%;
+}
+
+
+ .h1-dark{
+    font-size: 70px;
+    color: white;
+}
+.h6-dark{
+    font-size: 20px;
+    color: white;
+
+}
+/* Início da edição da segunda div  */
+
+.imgbacground-falcon{
+    min-height: 100vh;
+    background-image: url(../img/22.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-falcon > p {
+    width: 600px;
+    height: 500px;
+    margin-left: 10%;
+    padding-top: 7%;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+
+
+@media(max-width:672px){
+    .img-falcon >p {
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+
+    .img-falcon > p{
+        font-size: 1em;
+        margin-left: 3%;
+    }
+    
+    
+}
+
+
+
+/* Edição da terceira imagem, primeiro carrossel*/
+
+.background3-falcon{
+    min-height: 100vh;
+    background-image: url(../img/88.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.table{
+    margin-left: 5%;
+    color: white;
+    width: 500px;
+}
+
+
+.imgCarousel1{
+    min-height: 100vh;
+    background-image: url(../img/33.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-left: 15%; */
+    padding-top: 15%;
+
+}
+
+.p-carousel1, .h3-carousel1{
+    margin-left: 15%;
+    color: white;
+}
+
+
+.table1{
+    margin-left: 15%;
+}
+
+
+.imgCarousel2{
+    min-height: 100vh;
+    background-image: url(../img/44.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+
+.p-carousel2,  .h3-carousel2{
+    width: 500px;
+    color: white;
+}
+
+
+.imgCarousel3{
+    min-height: 100vh;
+    background-image: url(../img/55.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 12%;
+    
+
+}
+
+
+.p-carousel3,  .h3-carousel3{
+    width: 500px;
+    margin-left: 13%;
+    color: white;
+    
+}
+
+.table3{
+    margin-left: 13%;
+
+}
+
+
+.imgCarousel4{
+    min-height: 100vh;
+    background-image: url(../img/66.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 14.3%;
+
+}
+
+.p-carousel4,  .h3-carousel4{
+    width: 500px;
+    margin-left: 14%;
+    color: white;
+    
+}
+
+
+
+.imgCarousel5{
+    min-height: 100vh;
+    background-image: url(../img/77.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 12%;
+
+}
+
+
+.p-carousel5,  .h3-carousel5{
+    width: 500px;
+    margin-left: 12%;
+    color: white;
+
+    
+}
+
+.table5{
+    margin-left: 12%;
+
+}
+
+/* Quarta imagem/div  */
+
+.img4-falcon{
+    width: 500px;
+    margin-left: 10%;
+    padding-top: 14%;
+    
+
+}
+
+
+.p-carousel6, .h3-carousel6{
+    width: 500px;
+    margin-left: 5%;
+    color: white;
+}
+
+
+.table6{
+    margin-bottom: 0;
+}
+
+
+@media(max-width:600px){
+    .table{
+        width: 240px;  
+    }
+
+    .p-carousel1, .h3-carousel1{
+        width: 240px;
+        font-size: 0.8em;
+    }
+    .p-carousel2,  .h3-carousel2{
+         width: 240px;
+    }
+    .p-carousel3,  .h3-carousel3{
+         width: 240px;
+    }
+    .p-carousel4,  .h3-carousel4{
+         width: 240px;
+    }
+    .p-carousel5,  .h3-carousel5{
+        width: 240px;
+    }
+
+    .img4-falcon{
+        width: 240px;
+        
+    }
+
+    .p-carousel6, .h3-carousel6{
+        width: 240px;
+        margin-bottom: 0;
+    }
+    .table6{
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+/* Div pré-footer */
+
+.footerDark{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 3%;
+}
+
+
+.textPreFooter{
+    color: white;
+}
+
+.textPreFooter >a{
+    text-decoration: none;
+    color: #b9b9b9;
+}
+
+.btnfooter{
+    display: flex;
+    gap: 10px;
+    color: transparent;
+}
+
+.btnfooter > button{
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 1em;
+    width: auto;
+    height: 60px;
+    background-color: transparent;
+    color:white;
+
+}
+
+
+/* footer da página falcon */
+.footer-falcon{
+    color: #b9b9b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-falcon > a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.78em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyOBC-falcon{
+    color: #b9b9b9;
+    font-size: 0.78em;
+}
+
+@media(max-width:375px){
+    .h1-falcon{
+        font-size: 3em;
+
+    }
+    .p-falcon{
+        font-size: 1em;
+    }
+
+    .img-falcon >p{
+        font-size: 0.8em;
+        margin-left: 3%;
+    }
+
+    .table{
+        font-size: 0.8em;
+        margin-left: 3%;
+    }
+    .p-carousel2,  .h3-carousel2{
+         font-size: 0.8em;
+         margin-left: 3%;
+    }
+    .p-carousel3,  .h3-carousel3{
+         font-size: 0.8em;
+         margin-left: 3%;
+    }
+    .p-carousel4,  .h3-carousel4{
+         font-size: 0.8em;
+         margin-left: 3%;
+    }
+    .p-carousel5,  .h3-carousel5{
+        font-size: 0.8em;
+        margin-left: 3%;
+    }
+
+    .img4-falcon{
+        font-size: 0.8em;
+        margin-left: 3%;
+    }
+
+    .p-carousel6, .h3-carousel6{
+        font-size: 0.8em;
+        margin-left: 3%;
+    }
+
+    .h1-dark{
+        font-size: 2em;
+        margin-left: 3%;
+    }
+
+    .h6-dark{
+        font-size: 1em;
+        margin-left: 3%;
+    }
+
+
+    .btnfooter > button{
+        font-size: 0.6em;
+        width: 100px;
+
+    }
+}
+
+/* Início da página Human */
+
+/* Imagem da Header */
+
+.header-human{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    background-image: url(../img/001.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -4%;
+}
+
+.img-arrowDown1{
+    width: 200px;
+    height: 90px;
+    margin-bottom: 5%;
+    padding-bottom: -5%;
+    background-color: transparent;
+}
+/* Tamanho do texto do Header */
+
+.h1-human{
+    font-size: 7.5em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.p-human{
+    font-size: 2em;
+    font-weight: 100;
+
+}
+/* texto interativo entre o header e a div-1 */
+
+.pp-human{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.pp-human >p{
+    width: 55%;
+    font-size: 20px;
+    color: #b9b9b9;
+}
+
+.pp-human > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Segunda imagem, Terra. */
+.imgbacground-human{
+    background-image: url(../img/002.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-human{
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+/* Terceira imagem, satélite. */
+.imgbackground2-human{
+    background-image: url(../img/003.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img2-human{
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+
+/* Quarta imagem, lua. */
+.background3-human{
+    background-image: url(../img/004.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Quinta imagem, Marte */
+.background4-human{
+    background-image: url(../img/005.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img3-human{
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+/* edição dos Butões */
+.btn-human{
+    width:180px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+}
+
+.btn-human:hover{
+    background-color: #b9b9b9;
+    color: black;
+}
+
+/* Tamanho das letras */
+main >div>div> H1{
+    font-size: 60px;
+}
+
+
+/* Responsividade da página human */
+@media(max-width:920px){
+    .h1-human{
+    font-size: 5em;
+    }
+    .text-home{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex:1 0 200px;
+        margin-left: 1.5%;
+    }
+}
+
+
+@media(max-width:674px){
+
+        .text-home{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex:1 0 200px;
+            margin-left: 2%;
+        }
+        
+        .h1-human{
+            font-size: 2.5em;
+            }
+
+        .p-human{
+            font-size:1.2em;
+        }
+
+        .pp-human{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 30vh;
+        }
+
+        .pp-human >p{
+            padding-top: 10%;
+            width: 60%;
+            font-size: 0.9em;
+            color: #b9b9b9;
+        }
+
+        main >div>div> H1{
+            font-size: 1.3em;
+        }
+
+
+        .btn-human{
+            font-size: 0.6em;
+            width:90px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid #b9b9b9;
+            border-radius: 5px;
+        }
+        
+
+}
+
+@media(max-width:300px){
+    .pp-human{
+        margin-top: -20px;
+        font-size: 0.75em;
+    }
+
+    /* .pp-human >p{
+        width:auto;
+    } */
+    
+    .h1-human{
+        font-size: 1.75em;
+        }
+
+    .p-human{
+        font-size:0.6em;
+    }
+    
+
+    .img-human{
+        margin-left: 5%;
+    }
+    .img-human > p{
+        font-size: 0.75em;
+    }
+
+    .img1-human{
+        margin-left: 2%;
+    }
+
+    .img1-human > p{
+        font-size: 0.75em;
+    }
+
+    .img2-human{
+        margin-left: 5%;
+    }
+
+    .img2-human > p{
+        font-size: 0.75em;
+    }
+
+    .img3-human{
+        margin-left: 2%;
+    }
+
+    .img3-human >p {
+        font-size: 0.75em;
+    }
+
+}

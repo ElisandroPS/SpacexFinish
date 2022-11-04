@@ -1,0 +1,98 @@
+@import url(" https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+}
+
+.header-home {
+  font-size: 12px;
+  font-weight: bold;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-home #navItem:hover {
+  color: #b9b9b9;
+}
+.header-home .text-home {
+  margin-left: 10%;
+  margin-top: 15%;
+  min-width: 240px;
+  height: auto;
+}
+
+.img-home, .img1-home, .img2-home {
+  margin-left: 10%;
+  padding-top: 5%;
+  min-width: 240px;
+  height: auto;
+}
+
+.img-arrowDown {
+  width: 100px;
+  height: auto;
+  background-color: transparent;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 40.5%;
+  padding-bottom: 10%;
+}
+
+.logoPC {
+  width: 240px;
+  margin-left: 110px;
+  margin-right: 40px;
+}
+
+body h1, p {
+  color: #ffffff;
+}
+
+body .btn-home {
+  border-radius: 4px;
+  width: 160px;
+  margin-top: 4%;
+  font-size: 15px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+body .btn-home:hover {
+  background-color: #b9b9b9;
+}
+
+.footer-home {
+  background-color: #000000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-home a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-home a:hover {
+  color: #b9b9b9;
+}
+.footer-home .copyOBC {
+  color: #555252;
+  cursor: pointer;
+}
+
+.header-home.container01 {
+  background-image: url(../../img/01.jpg);
+}
+.header-home.imgbackground {
+  background-image: url(../../img/03.jpg);
+}
+.header-home.imgbackground2 {
+  background-image: url(../../img/02.gif);
+}
+.header-home.imgbackground3 {
+  background-image: url(../../img/04.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
